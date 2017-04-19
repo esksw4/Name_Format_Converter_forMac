@@ -1,6 +1,8 @@
+# Written By. Eun-Sol Kim
 # If Filename does not start with 'fromWhatName',
 # then change the name to 'toWhatNameReplace'.
 # fileDirect: should contain exact directory for that folder
+
 
 import glob, os
 
