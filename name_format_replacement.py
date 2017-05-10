@@ -113,7 +113,7 @@ class GUIdisplay:
 		for filename in os.listdir(self.userInfo['Folder Directory']):
 			if (not (filename.startswith("----________-----")) and filename != ".DS_Store"):
 				Name = filename.split('.')[0]
-				os.rename(self.userInfo['Folder Directory'] + "%s" %(filename), self.userInfo['Folder Directory']  + Name + ".%s" %(self.userInfo['To which format']))
+				os.rename(self.userInfo['Folder Directory'] + "%s" %(filename), self.userInfo['Folder Directory']  + Name + "%s" %(self.userInfo['To which format']))
 	
 
 	def convertName(self):
