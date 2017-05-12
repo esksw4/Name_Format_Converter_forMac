@@ -1,5 +1,5 @@
 # Name & Format Converter
-This is for anyone who needs to change file names/file formats/both in the specific folder. Instead of going through all the files to convert, the users can simply input the information and this will convert the files for you!
+Are you working with big customized datasets? Well, This application will help you! This is for anyone who needs to change file names/file formats/both in the specific folder. Instead of going through all the files to convert, you can simply input the information and this will convert the files for you!
 
 ## Before using this
 You will need the following:
