@@ -130,11 +130,6 @@ class GUIdisplay:
 				os.rename(self.userInfo['Folder Directory'] + "%s" %(filename), self.userInfo['Folder Directory']  + self.userInfo['To what name'] + "%d%s" % (i,self.userInfo['To which format']))
 			i += 1
 
-# fileDirect = "/Users/eun-solkim/BBox-Label-Tool-master/"
-# fromWhatName = "DonotEnter"
-# toWhatNameReplace = ""
-# toWhichFormat = "JPEG"
-
 root = Tk()
 display = GUIdisplay(root)
 root.mainloop()
